@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="gnstyle.css" />
+    <title>Mini Games</title>
+</head>
+<body>
+<header>
+    <a href="#" class="logo">Mini Games</a>
+    <div class="menuToggle"></div>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Games&nbsp;<span style="color:rgb(171, 171, 248)">></span></a>
+                <ul>
+                    <li><a href="Gussing-Number.html">Gussing Number</a></li>
+                    <li><a href="#">Rock Paper Scissors</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Leaderboard</a></li>
+        </ul>
+    </nav>
+</header>
+<div id="wrapper2" style="margin-top: 180px;height: 400px;">
+    <br><br>
+    This project is designed only by Samane Razmi......
+    <br>
+     Gussing Number Game is available....
+</div><!--end wrapper-->
+<script>
+    let menuToggle=document.querySelector('.menuToggle');
+    let header=document.querySelector('header');
+    menuToggle.onclick=function(){
+        header.classList.toggle('active');
+    }
+</script>
+</body>
+</html>
